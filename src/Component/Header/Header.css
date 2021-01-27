@@ -1,0 +1,17 @@
+.main{background-color: brown;}
+.mains{
+    background: linear-gradient(45deg,red,#fff,blue);
+}
+.cr7{
+    border: 2px solid brown;
+    border-radius: 50px;
+}
+.cr72{   border: 2px solid goldenrod;
+    border-radius: 50px;
+
+}
+.cr73{
+
+    border: 2px solid darkred;
+    border-radius: 50px;
+}
