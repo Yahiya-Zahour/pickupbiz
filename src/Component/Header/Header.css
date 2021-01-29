@@ -1,18 +1,25 @@
-.main{background-color: brown;}
-.mains{
-    background: linear-gradient(45deg,red,#fff,blue);
-}
-.cr7{
-    border: 2px solid brown;
-    border-radius: 50px;
-}
-.cr72{   border: 2px solid goldenrod;
-    border-radius: 50px;
 
+.heading{background: linear-gradient(45deg,rgb(33, 34, 34),rgb(107, 34, 175),rgb(36, 146, 141));
+border: 5px solid black; width: 333px; height: 500px;
+padding: 10px;}
+fieldset{height: 400px;
+width: 300px;border-radius: 5px;
+border-color: black; height: 400px;}
+legend{
+ margin-right: 20px;background: linear-gradient(45deg,rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 255, 255));border-radius: 10px;
+margin-top: 50px;
+padding: 5px;font-family: Arial, Helvetica, sans-serif;
 }
-.cr73{
-
-    border: 2px solid darkred;+
-    
-    border-radius: 50px;
-}
+.mar{margin-right: 90px;
+padding: 10px;
+color: cornsilk;}
+input{padding: 9px;margin: 12px;}
+button:hover{background:linear-gradient(45deg,skyblue,#fff,skyblue);
+border-radius: 10px;}
+.first{width: 97%;}
+.label{margin: 10px;}
+.labell{padding: 40px;
+width: 100%;}
+/* form{background:crimson;} */
+.cr7{border: 2px solid black; padding: 10px;
+background:coral;}

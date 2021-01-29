@@ -3,45 +3,93 @@ import "./Header.css";
 import imglogo from "../images/cr7.jpg";
 import videohd from "../videos/Butterfly.mp4";
 import audiomp3 from "../audios/1998.mp3.mp3"; 
+import {Form,Button,Col} from 'react-bootstrap'
 export const HeaderSection=()=>{
 
     return(
         <div>
-            
-            <header>
-                <a href="">Home</a>
-                <a href="">services</a>
-                <a href="">About us</a>
-                <a href=""> Contact us</a>
-                <h1 style={{backgroundColor:"pink"}}> welcome</h1>
-                <div className="cr73">
-               <img  src={imglogo} width="400px" height="400px"></img>
-               </div>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quod eligendi nisi alias dolore id voluptatum reprehenderit laboriosam sunt aspernatur beatae, molestias delectus dicta, dignissimos qui error vel praesentium eius!</p>
-               <img src="Assets/pickup.png" alt="body images"/>
-               <p className="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid, odit corporis nam eos tempore, architecto laudantium vel adipisci autem reiciendis voluptatibus totam? Iure necessitatibus eos exercitationem doloribus iusto magni sed voluptas, ducimus voluptate ab, repellat eum nam debitis dicta.
-Lorem ipsum, dolor lorem 100
- sit amet consectetur adipisicing elit. Laudantium amet assumenda explicabo accusamus et ipsum corrupti impedit temporibus optio incidunt, labore eveniet ab soluta quos quas, eaque harum voluptatum praesentium debitis dignissimos libero perspiciatis recusandae ipsam. Harum, minus? Iure dignissimos molestias quaerat aperiam tempore natus dolorum, aliquid nulla saepe vel.
-            </p>
-               <br/>
-               <div className="cr72">
-               <video controls src={videohd} width="400px" height="400px"></video>
+            {/* FIRST ROW */}
+            <div className="heading">
+            <fieldset>
+            <legend>
+                Guest login
+            </legend>
             <br/>
+            {/* 2ND ROW */}
+            <label className="mar">User Name</label><br/>
+            <input type="text" placeholder="Enter your Name"/>
+            <br/><br/>
+            <label className="mar">User Email</label><br/>
+            <input type="text" placeholder="Enter your Email"/>
+            <br/><br/>
+            <label className="mar">User password</label><br/>
+            <input type="password" placeholder="Enter your password"/>
+            <br/><br/>
+            <button>submit</button>
+            </fieldset>
             </div>
-            
-            
             <br/>
-            <p >Lorem <span style={{backgroundColor: ""}}> ipsum dolor sit  ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid, odit corporis nam eos tempore, architecto laudantium vel adipisci autem reiciendis voluptatibus totam? Iure necessitatibus eos exercitationem doloribus iusto magni sed voluptas, ducimus voluptate ab, repellat eum nam debitis dicta.
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. </span>Laudantium amet assumenda explicabo accusamus et ipsum corrupti impedit temporibus optio incidunt, labore eveniet ab soluta quos quas, eaque harum voluptatum praesentium debitis dignissimos libero perspiciatis recusandae ipsam. Harum, minus? Iure dignissimos molestias quaerat aperiam tempore natus dolorum, aliquid nulla saepe vel.
-            </p>
-            
+            <br/><br/><br/>
+            {/* 3 ROW */}
             <div className="cr7">
-            <audio  controls src={audiomp3}></audio>
-            </div>
-            <p className="mains">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid, odit corporis nam eos tempore, architecto laudantium vel adipisci autem reiciendis voluptatibus totam? Iure necessitatibus eos exercitationem doloribus iusto magni sed voluptas, ducimus voluptate ab, repellat eum nam debitis dicta.
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium amet assumenda explicabo accusamus et ipsum corrupti impedit temporibus optio incidunt, labore eveniet ab soluta quos quas, eaque harum voluptatum praesentium debitis dignissimos libero perspiciatis recusandae ipsam. Harum, minus? Iure dignissimos molestias quaerat aperiam tempore natus dolorum, aliquid nulla saepe vel.
-            </p>
-            </header>
+            <Form>
+  <Form.Row>
+    <Col>
+      <Form.Control placeholder="First name" />
+    </Col>
+    <Col>
+      <Form.Control placeholder="middle name" />
+    </Col>
+    <Col>
+      <Form.Control placeholder="Last name" />
+    </Col>
+  </Form.Row>
+  <br/><br/>
+  {/* 4 ROW */}
+  <label >Age</label>
+  <input type="text"/>
+ < label>Gender</label>
+  <input type="text"/>
+ < label>cast</label>
+  <input type="text"/>
+  < label>weight</label>
+  <input type="text"/>
+  <br/><br/>
+  {/* 5 ROW */}
+  <Form.Group controlId="formGroupEmail">
+    <Form.Label>Email address</Form.Label>
+    <Form.Control type="email" placeholder="Enter email" />
+  </Form.Group>
+  <Form.Group controlId="formGroupPassword">
+    <Form.Label>Password</Form.Label>
+    <Form.Control type="password" placeholder="Password" />
+  </Form.Group>
+  {/*6 row */}
+  <Form.Group controlId="formGridAddress1">
+    <Form.Label>Address</Form.Label>
+    <Form.Control placeholder="1234 Main St" />
+  </Form.Group>
+  <Form.Row>
+    <Col>
+    <label> Mobile no</label>
+      <Form.Control placeholder="mobile no" />
+    </Col>
+    <Col>
+    <label>Education</label>
+      <Form.Control placeholder="Education" />
+    </Col>
+    <Col>
+    <label>Additional Skill</label>
+      <Form.Control placeholder="Additional Skill" />
+    </Col>
+  </Form.Row>
+  <input type="radio"/>
+  <label>Check me out</label>
+  <br/>
+  <button>Submit</button>
+  
+</Form>
+</div>
         </div>
     )
     }
