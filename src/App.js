@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {HeaderSection} from "./Component/Header/Header";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Landing } from './Component/Homepage/Landing';
 
 function App() {
   return (
-    <div className="App">
-      <HeaderSection/>
+    <div>
+      <Landing/>
     </div>
   );
 }
