@@ -1,8 +1,8 @@
 import React from 'react';
-import { MainHeader } from '../HeaderSection/MainBodyHeader/MainHeader';
+import {Practice} from '../HeaderSection/MainBodyHeader/Practice';
 
  export const Landing = () => {
     return <div>
-            <MainHeader/>
+            <Practice/>
         </div>;
 };

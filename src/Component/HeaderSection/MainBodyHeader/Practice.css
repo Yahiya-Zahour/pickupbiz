@@ -1,0 +1,15 @@
+input{border: none;border-bottom: 1px solid black;width: 100%;border-radius: px;}
+.login-form{width: 100%;max-width: 430px;
+padding: 15px;
+margin: auto;
+height:100% ;
+}
+.google{background-color: rgb(91, 91, 122);width: 310px;height: 40px; border-radius: 40px;color: white;border-radius: 20px;}
+
+.can{margin-left: 290px;margin-bottom:10px;margin-top: 0px;}
+.cr7{border: 4px solid black;width: 400px;margin-left: 500px;padding: 30px;border-radius: 30px;background-color: white;}
+.Sign{font-size: 28px;}
+.user{margin-left: -200px;font-size: 22px;}
+.name{margin-left: -200px;font-size: 22px;}
+.accept{margin-right: 220px;margin-left: 90px;}
+.in{font-size: 29px;}
