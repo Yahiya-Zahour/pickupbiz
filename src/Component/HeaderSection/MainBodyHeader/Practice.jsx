@@ -31,7 +31,8 @@
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
             <br/><br/><br/> 
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
-    
+    <br/><br/><br/>
+    <button>login</button>
 
             
            
