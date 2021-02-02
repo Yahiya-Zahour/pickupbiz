@@ -7,7 +7,7 @@ export const PropsPracticeChild =(props)=> {
                i am {props.name} and i am {props.age} your old
            </p>
            <p>
-               i am {props.zahour} and i am {props.PersonAge} year old ok
+               i am {props.children} and i am  year old ok
            </p>
        </div>
        </React.Fragment>
