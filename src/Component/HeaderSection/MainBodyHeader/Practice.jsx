@@ -29,8 +29,9 @@
             <button className="google">Sign in with twitter <TwitterIcon/> </button>
             <br/><br/>
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
-            <h1>za</h1>
+            
             <br/><br/><br/>
+            <button>login</button>
                 </Form>
             </div>
             
