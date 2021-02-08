@@ -30,19 +30,6 @@
             <br/><br/>
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
             <br/><br/><br/> 
-            <button>login</button>
-            <button>login</button>   <button>login</button>   <button>login</button>
-            <br/><br/><br/> 
-            <button>login</button>
-            <button>login</button>   <button>login</button>   <button>login</button>
-            <br/><br/><br/> 
-            <button>login</button>
-            <br/><br/><br/> 
-            <button>login</button>
-            <button>login</button>   <button>login</button>   <button>login</button>
-            <button>login</button>   <button>login</button>   <button>login</button>
-            <button className="google">Sign in with twitter <TwitterIcon/> </button>
-            <br/><br/>
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
             <br/><br/><br/> 
             <button>login</button>
