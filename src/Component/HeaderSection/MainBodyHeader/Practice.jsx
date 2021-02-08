@@ -33,6 +33,10 @@
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
             <br/><br/><br/> 
          <button>submit</button>
+         <button>submit</button>
+         <button>submit</button>
+         <button>submit</button>
+
                 </Form>
             </div>
             
