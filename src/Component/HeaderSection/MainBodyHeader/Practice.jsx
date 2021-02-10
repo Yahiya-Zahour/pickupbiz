@@ -32,9 +32,7 @@
             <br/><br/><br/> 
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
             <br/><br/><br/> 
-  <button>login</button>
-  <button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button><button>login</button>
-                </Form>
+               </Form>
             </div>
             
         );
