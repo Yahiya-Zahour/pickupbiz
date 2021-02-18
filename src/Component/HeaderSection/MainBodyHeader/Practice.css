@@ -6,13 +6,40 @@ height:100% ;
 }
 .google{background-color: rgb(91, 91, 122);width: 310px;height: 40px; border-radius: 40px;color: white;border-radius: 20px;}
 
-.can{margin-left: 290px;margin-bottom:10px;margin-top: 0px;}
-.cr7{border: 4px solid black;width: 400px;margin-left: 500px;padding: 30px;border-radius: 30px;background-color: white;}
+.can{margin-left: 290px;
+    margin-bottom:10px;
+    margin-top: 0px;}
+
+.cr7{border: 4px solid black;
+    width: 400px;
+    margin-left: 500px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+
 .Sign{font-size: 28px;}
-.user{margin-left: -200px;font-size: 22px;}
-.name{margin-left: -200px;font-size: 22px;}
+
+.user{margin-left: -200px;
+    font-size: 22px;}
+
+.name{margin-left: -200px;
+    font-size: 22px;}
+
 .accept{
     font-size: 20px;
-
 }
+
 .in{font-size: 29px;}
+
+.time {border:2px solid #102a42;
+       font-family: serif;
+       font-size: 20px;
+       background: linear-gradient(37deg,#102a42,black,#102a42);
+       color: white;}
+
+.date {border:2px solid #102a42;
+      font-family: serif;
+      font-size: 20px;
+    background: linear-gradient(37deg,#102a42,black,#102a42);
+color: white;}

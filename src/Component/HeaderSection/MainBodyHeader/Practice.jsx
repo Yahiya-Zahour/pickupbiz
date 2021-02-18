@@ -5,9 +5,8 @@
     import TwitterIcon from '@material-ui/icons/Twitter';
     import "./Practice.css"
 
-    const currTime = new Date().toLocaleTimeString();
-    const currDate = new Date().toLocaleDateString();
-
+   const currTime = new Date().toLocaleTimeString();
+   const currDate = new Date().toLocaleDateString();
 
         export const Practice = () => {
             return (
@@ -27,19 +26,17 @@
                     <br/>
                     <input type="text" placeholder="Enter Your Name" />
                 </FormGroup>
-             <Form.Group className="accept">
+             {/* <Form.Group className="accept">
                  <Form.Check type="checkbox" label="Accept Terms & condition" />
-                 </Form.Group>
+                 </Form.Group> */}
             <button className="google">Sign in with twitter <TwitterIcon/> </button>
             <br/><br/>
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
-            <br/><br/><br/> 
-            <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
-    <br/><br/><br/>
-<p>current Time is = {currTime} </p>
-<p>current Date is = {currDate}</p>
             
-           
+    <br/><br/><br/>
+
+           <p className="time">current time is = {currTime} </p>
+           <p className="date">current Date is = {currDate} </p>
 
                </Form>
             </div>
