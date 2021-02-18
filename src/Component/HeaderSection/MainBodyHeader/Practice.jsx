@@ -5,6 +5,10 @@
     import TwitterIcon from '@material-ui/icons/Twitter';
     import "./Practice.css"
 
+    const currTime = new Date().toLocaleTimeString();
+    const currDate = new Date().toLocaleDateString();
+
+
         export const Practice = () => {
             return (
                 
@@ -32,9 +36,8 @@
             <br/><br/><br/> 
             <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
     <br/><br/><br/>
-
-
-  
+<p>current Time is = {currTime} </p>
+<p>current Date is = {currDate}</p>
             
            
 
