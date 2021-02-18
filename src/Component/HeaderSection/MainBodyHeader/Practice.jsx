@@ -19,7 +19,20 @@
                     <input type="Email" placeholder="Enter Your Email" />
                 </FormGroup>
                 <FormGroup>
-              
+                <label className="user">User Name</label>
+                    <br/>
+                    <input type="text" placeholder="Enter Your Name" />
+                </FormGroup>
+             <Form.Group className="accept">
+                 <Form.Check type="checkbox" label="Accept Terms & condition" />
+                 </Form.Group>
+            <button className="google">Sign in with twitter <TwitterIcon/> </button>
+            <br/><br/>
+            <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
+            <br/><br/><br/> 
+            <button className="google">Sign in with Facebook <FacebookIcon/> </button>  
+    <br/><br/><br/>
+
 
   
             
